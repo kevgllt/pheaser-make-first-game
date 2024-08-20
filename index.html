@@ -38,12 +38,11 @@
     var game = new Phaser.Game(config);
 
     function preload () {
-        //assets path ../phaser3-tutorial-src/assets/
-        this.load.image('sky', '../phaser3-tutorial-src/assets/sky.png')
-        this.load.image('ground', '../phaser3-tutorial-src/assets/platform.png')
-        this.load.image('star', '../phaser3-tutorial-src/assets/star.png')
+        this.load.image('sky', 'assets/sky.png')
+        this.load.image('ground', 'assets/platform.png')
+        this.load.image('star', 'assets/star.png')
         this.load.spritesheet('dude',
-            '../phaser3-tutorial-src/assets/dude.png',
+            'assets/dude.png',
             { frameWidth: 32, frameHeight: 48}
         );
 
